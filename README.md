@@ -10,7 +10,7 @@
 ![image](https://github.com/user-attachments/assets/4513eb05-f06e-4159-ae6c-23852ce1f3e1)
 
 ### Sample Input (Cart is empty)
-![image](https://github.com/user-attachments/assets/8fc1b741-5137-4a60-af54-1b82428384b9)
+![image](https://github.com/user-attachments/assets/c1cd1fff-4664-45df-addc-c35263ca5085)
 ### Sample Output (Cart is empty)
 ![image](https://github.com/user-attachments/assets/2f4b07a5-f4ea-43c7-bbb5-ebf38aa7dede)
 

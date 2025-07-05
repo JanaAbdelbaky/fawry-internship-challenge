@@ -1,8 +1,7 @@
 # Fawry E-Commerce System
 
 ##  How to Run
-1. Open the project in Eclipse.
-2. Run the file: `Checkout.java`
+1. Run the file: `Checkout.java`
 
 ### Sample Input
 ![image](https://github.com/user-attachments/assets/a215150e-678f-45c0-b351-f877549459f9)

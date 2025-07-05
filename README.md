@@ -10,7 +10,7 @@
 ![image](https://github.com/user-attachments/assets/e3ee4f2d-2104-4412-9e34-94694589ef23)
 
 ###(Customer's balance is insufficient)
-![image](https://github.com/user-attachments/assets/24c2f17b-20ad-454c-b4e0-d1bead2069fe)
+![image](https://github.com/user-attachments/assets/6bc15b06-47f4-4086-a0b1-beb3354dc141)
 
 ### (one product is expired)
 ![image](https://github.com/user-attachments/assets/e40f4177-e771-43ee-b035-65ca7cc63599)

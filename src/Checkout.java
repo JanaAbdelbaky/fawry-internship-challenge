@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -71,8 +72,8 @@ public class Checkout {
 		    public static void main(String[] args) {
 		        Customer customer = new Customer("Jana", 1000);
 
-		        Product cheese = new Cheese("Cheese", 100, 5, 0.2, false);
-		        Product biscuits = new Biscuits("Biscuits", 150, 2, 0.7, false);
+		        Product cheese = new Cheese("Cheese", 100, 5, 0.2,LocalDate.of(2025, 12, 1));
+		        Product biscuits = new Biscuits("Biscuits", 150, 2, 0.7, LocalDate.of(2025, 8, 1));
 		        Product tv = new TV("TV", 5000, 3, 4);
 		        Product scratchCard = new MobileScratchCards("Scratch Card", 50, 10);
 
@@ -80,7 +81,6 @@ public class Checkout {
 
 		        cart.add(cheese, 2);
 		        cart.add(biscuits, 1);
-		        //cart.add(tv, 1);
 		        cart.add(scratchCard, 1);
 
 		        checkout(customer, cart);

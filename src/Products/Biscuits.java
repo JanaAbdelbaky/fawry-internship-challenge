@@ -1,22 +1,28 @@
 package Products;
 
+import java.time.LocalDate;
+
 
 public class Biscuits extends Product implements Shippable, Expirable{
-	private boolean expire;
+	private LocalDate expirationDate;
 	private double weight;
 	
-	public Biscuits(String name, double price, int quantity, double weight, boolean expire){
+	public Biscuits(String name, double price, int quantity, double weight,LocalDate expirationDate){
 		super(name,price,quantity);
-		this.expire = expire;
 		this.weight = weight;
+		this.expirationDate = expirationDate;
 	}
 
 	public boolean isExpire() {
-		return expire;
+		return LocalDate.now().isAfter(expirationDate);
+	}
+	
+	public LocalDate getExpirationDate() {
+		return expirationDate;
 	}
 
-	public void setExpire(boolean expire) {
-		this.expire = expire;
+	public void setExpirationDate(LocalDate expirationDate) {
+		this.expirationDate = expirationDate;
 	}
 
 	public double getWeight() {
